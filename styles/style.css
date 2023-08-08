@@ -20,6 +20,11 @@ a {
   text-align: center;
 }
 
+.buttons a img {
+  display: inline;
+  color: white;
+}
+
 a:hover {
   background-color: white;
   color: black;
@@ -69,6 +74,12 @@ body {
   padding-top: 50px;
 }
 
+.buttons p {
+  color: white;
+  width: 300px;
+  text-align: center;
+}
+
 .icons {
   width: 20px;
   height: 20px;
@@ -91,6 +102,9 @@ body {
   }
   .buttons {
     padding-top: 0;
+  }
+  body {
+    background-image: url('../assets/images/large.jpg');
   }
   .header img {
     height: 200px;
